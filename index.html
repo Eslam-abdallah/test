@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- LINK font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- Link Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start Nabvar -->
+    <nav id="nav">
+      <div class="container-fluid">
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#" class="color"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="color"
+                ><i class="fa-solid fa-location-dot"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="color"><i class="fa-solid fa-hashtag"></i></a>
+            </li>
+          </ul>
+          <div class="logo">
+            <img src="img/Website_Header_Logo.png" id="logo" />
+          </div>
+          <ul>
+            <li>
+              <a href="#" class="color"
+                ><i class="fa-solid fa-shoe-prints"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="color"
+                ><i class="fa-regular fa-envelope"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="color"><i class="fa-solid fa-user"></i></a>
+            </li>
+            <li>
+              <a href="#" class="color"
+                ><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <ul class="navlink">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Men's Shoes</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Women's Shoes</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Accessories</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Stores</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Shoe Care</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Guides</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Making & Repair</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >The Article</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+    
+    <nav id="navhover">
+      <div class="container-fluid">
+        <div class="navbarh">
+          <ul>
+            <li>
+              <a href="#" class="color"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Men's Shoes</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Women's Shoes</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Accessories</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Stores</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <div class="logo">
+            <img src="img/Website_Header_Logo_-_Black_164x.png" id="logo" />
+          </div>
+          <ul>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Shoe Care</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Guides</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Making & Repair</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >The Article</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="shop-nav">
+              <a href="#" class="color"
+                ><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    
+
+    <!-- End Nabvar -->
+
+    <!-- Start Header -->
+    <header>
+      <div class="col-12 cursor">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="img/homepage-main-slider-desktop-AW24-donegal-chocolate_3200x.jpg"
+              />
+              <div class="lyr">
+                <h4>Donegal</h4>
+                <p>Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/homepage-main-slider-desktop-AW24-donegal-walnut_3200x.jpg"
+              />
+              <div class="lyr">
+                <h4>Donegal</h4>
+                <p>Walnut Hatch Grain</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swip-btn"></div>
+          <div class="swiper-button-prev swip-btn"></div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start new season -->
+    <section class="season">
+      <div class="new-season">
+        <div class="text-area mt-5">
+          <h3 class="font">New Season</h3>
+          <h3>AUTUMN WINTER 2024</h3>
+          <p style="width: 850px">
+            Revisiting the stunning vistas overlooking the Firth of Clyde to the
+            Isle of Arran, Crockett & Jones takes to the great outdoors for its
+            new Autumn / Winter collection.
+          </p>
+          <a href="#">NEW STYLES</a>
+        </div>
+      </div>
+      <!-- Swiper -->
+
+      <div #swiperRef="" class="swiper pageSwiper mt-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img
+                    src="img/homepage-main-slider-mobile-AW24-donegal-walnut_900x.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="two-img">
+                  <img src="img/download.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/1.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/1-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/2.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/1-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/3-2.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/3.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/4.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/download.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img
+                    src="img/homepage-main-slider-mobile-AW24-donegal-walnut_900x.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="two-img">
+                  <img src="img/download.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-4">
+          <div class="col-1">
+            <div class="swiper-button-next next"></div>
+            <div class="swiper-button-prev prev"></div>
+          </div>
+          <div class="col-11">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End new season -->
+
+    <!-- Start Winter section -->
+    <section class="winter mt-5">
+      <div class="winter-text">
+        <div class="text-area">
+          <h3 class="font">New Season</h3>
+          <h3>AUTUMN WINTER 2024</h3>
+          <p style="width: 850px">
+            Revisiting the stunning vistas overlooking the Firth of Clyde to the
+            Isle of Arran, Crockett & Jones takes to the great outdoors for its
+            new Autumn / Winter collection.
+          </p>
+          <a href="#">VIEW THE FULL COLLECTION </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Winter section -->
+
+    <!-- Start New Collection -->
+    <section class="season">
+      <div class="new-season">
+        <div class="text-area mt-5">
+          <h3 class="font">New Collection</h3>
+          <h3>AUTUMN WINTER 2024</h3>
+          <p style="width: 850px">
+            Revisiting the stunning vistas overlooking the Firth of Clyde to the
+            Isle of Arran, Crockett & Jones takes to the great outdoors for its
+            new Autumn / Winter collection.
+          </p>
+          <a href="#">NEW STYLES</a>
+        </div>
+      </div>
+      <!-- Swiper -->
+
+      <div #swiperRef="" class="swiper pageSwiper mt-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/b1.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/b1-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/b2.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/b2-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/b3.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/b3-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/b4.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/b4-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/b5.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/b5-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card" style="width: 18rem">
+              <div class="imgs">
+                <div class="one-img">
+                  <img src="img/b1.avif" class="card-img-top" alt="..." />
+                </div>
+                <div class="two-img">
+                  <img src="img/b2-2.avif" class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5>DONEGAL 2</h5>
+                <p class="card-text">Chocolate Hurricane Hide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-4">
+          <div class="col-1">
+            <div class="swiper-button-next next"></div>
+            <div class="swiper-button-prev prev"></div>
+          </div>
+          <div class="col-11">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End New Collection -->
+
+    <!-- Start Historic section -->
+    <section
+      class="winter mt-5"
+      style="background-image: url('img/lighter_.webp')"
+    >
+      <div class="winter-text">
+        <div class="text-area">
+          <h3 class="font">Historic & Iconic</h3>
+          <h3>BRITISH ALLIANCE</h3>
+          <p style="width: 850px">
+            An iconic combination of Britishness, through his character and
+            clothing continues to inspire Crockett & Jones. Following its recent
+            announcement as a continued official partner and provider of
+            footwear to James Bond and EON Productions. Crockett & Jones creates
+            two new styles.
+          </p>
+          <a href="#">WATCH THE FILM </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Historic section -->
+
+    <!-- LINK font-awesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Link Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+
+    <script>
+      var swiper = new Swiper(".pageSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+      });
+    </script>
+    <!-- Link js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

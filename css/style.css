@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --dark-color: #2e2e2e;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Start Nabvar */
+nav {
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+
+}
+.navbar {
+  border-bottom: 1px solid var(--white-color);
+}
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+.navbar ul li {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.navbar ul li a {
+  color: var(--white-color);
+}
+.navbar ul li a:hover {
+  display: block;
+  background: var(--white-color);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.3 ease-in-out;
+  color: var(--black-color);
+}
+.navbar .logo img {
+  height: 60px;
+}
+.navlink {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+.navlink li a {
+  color: var(--white-color);
+  font-size: 13px;
+  text-transform: uppercase;
+}
+/* End Nabvar */
+/* Start Nabvarhover */
+#navhover {
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  background-color: var(--white-color);
+  height: 70px;
+    line-height: 70px;
+    display: none;
+}
+.navbarh {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarh ul {
+  display: flex;
+      gap: 1rem;
+      margin: 0;
+      align-items: center;
+}
+.navbarh ul li {
+  line-height: 40px;
+  text-align: center;
+}
+.navbarh ul li a {
+  color: var(--dark-color);
+  font-size: 15px;
+}
+.shop-nav{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #eee;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.shop-nav:hover .color{
+  color: #fff!important;
+}
+.shop-nav:hover{
+  
+  background-color: #063e33;
+  color: var(--white-color);
+}
+.navbarh .logo img {
+  height: 50px;
+}
+/* End Nabvarhover */
+/* Start header */
+header {
+  height: 90vh;
+}
+header .cursor {
+  height: 100%;
+  padding: 0;
+}
+
+header .cursor .lyr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  color: var(--white-color);
+}
+header .cursor .lyr h4 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+header .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+header .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .swip-btn {
+  color: var(--white-color);
+}
+/* End header */
+
+/* Start new season */
+.new-season .text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.new-season .text-area .font {
+  font-family: "Dancing Script", serif;
+}
+.new-season .text-area p {
+  width: 850px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.new-season .text-area a {
+  padding: 15px 60px;
+  color: #fff;
+  background: #2e2e2e;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: 0.5s ease-in-out;
+}
+.new-season .text-area a:hover {
+  padding: 15px 60px;
+  color: #2e2e2e;
+  background: transparent;
+  border: 1px solid #2e2e2e;
+  text-decoration: none;
+}
+
+.season .card .imgs {
+  position: relative;
+}
+.season .card {
+  border: none;
+  width: 400px !important;
+}
+.season .card .imgs img {
+    width: 340px;
+    height: 460px;
+    padding: 5px;
+}
+.season .card .imgs:hover .one-img {
+  transition: 0.3s ease-in;
+  opacity: 0;
+}
+.season .card .imgs .one-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+.season .card-body h5 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+.season .card-body p {
+  text-align: center;
+  font-size: 15px;
+  color: #777;
+}
+.season .swiper {
+  height: 600px;
+}
+.swiper-pagination{
+    height: 2px!important;
+}
+.swiper-horizontal > .swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+.swiper-vertical
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  bottom: 40px !important;
+  top: initial;
+  width: 95%;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #2e2e2e;
+}
+
+.season .swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  bottom: 0 !important;
+  top: -41px;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e2e2e;
+}
+.season .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1rem;
+}
+/* End new season */
+
+/* Start Winter section  */
+.winter {
+  background-image: url("../img/download.webp");
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+.winter-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  border: 2px solid #fff;
+  border-top: none;
+}
+.winter-text .text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  color: var(--white-color);
+}
+
+.winter-text .text-area .font {
+  font-family: "Dancing Script", serif;
+}
+.winter-text .text-area p {
+  width: 850px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--white-color);
+}
+.winter-text .text-area a {
+  padding: 15px 60px;
+  color:var(--white-color);
+  border:1px solid var(--white-color);
+  font-size: 1rem;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+
+}
+.winter-text .text-area a:hover {
+  padding: 15px 60px;
+  color: #2e2e2e;
+  background: var(--white-color);
+  border: 1px solid var(--white-color);
+  text-decoration: none;
+}
+
+/* End Winter section  */
